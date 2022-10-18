@@ -3,7 +3,7 @@ class Event
 
   def initialize(start_date, duration, title, attendees)
     @start_date = Time.parse(start_date)
-    @duration = duration.to_i
+    @duration = duration
     @title = title.to_s
     @attendees = attendees
   end
